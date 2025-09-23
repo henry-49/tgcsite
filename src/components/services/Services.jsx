@@ -13,7 +13,7 @@ class Services extends Component {
       <Fragment>
         <Container fluid className="serviceSection text-center">
             <h1 className="serviceMainTitle">Our Services</h1>
-            <div className="buttom"></div>
+            <div className="bottom"></div>
           <Row>
             <Col lg={4} md={6} sm={12}>
               <div className="serviceCard text-center">
