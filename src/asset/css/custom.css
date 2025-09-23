@@ -15,6 +15,18 @@
 }
 
 .topContent{
-    color: white;
     margin-top: 10em;
+}
+
+.topTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.topSubTitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
 }

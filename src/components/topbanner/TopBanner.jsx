@@ -13,8 +13,8 @@ class TopBanner extends Component {
             <Container className="topContent">
               <Row>
                 <Col className="text-center">
-                  <h1>Tech Guru Consult</h1>
-                  <h4>Your one-stop solution for tech consulting</h4>
+                  <h1 className="topTitle">Tech Guru Consult</h1>
+                  <h4 className="topSubTitle">Your one-stop solution for tech consulting</h4>
                   <Button variant="primary">Let's Get Started</Button>
                 </Col>
               </Row>
