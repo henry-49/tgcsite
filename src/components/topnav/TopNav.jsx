@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import {Container,Nav, Navbar, NavDropdown, Row, Col, Button} from "react-bootstrap";
+import {Container,Nav, Navbar} from "react-bootstrap";
 import '../../asset/css/custom.css';
 import "../../asset/css/bootstrap.min.css";
 import Logo from '../../asset/images/tsc_logo.png';
@@ -13,6 +13,7 @@ class TopNav extends Component {
           navBarTitle: "navTitle",
           navBarLogo: [LogoWithIcon], // object
           navBarBackColor: "navBackground",
+          navBackItem: "navItem",
         };
     }
 
@@ -21,13 +22,15 @@ class TopNav extends Component {
             this.setState({
               navBarTitle: "navTitleScroll",
               navBarLogo: [LogoWithIcon],
-              navBarBackColor: "navBackground",
+              navBarBackColor: "navBackgroundScroll",
+              navBackItem: "navItemScroll",
             });
         }else if(window.scrollY < 100){
             this.setState({
               navBarTitle: "navTitle",
               navBarLogo: [Logo],
-              navBarBackColor: "navBackgroundScroll",
+              navBarBackColor: "navBackground",
+              navBackItem: "navItem",
             });
         }
     }
@@ -48,11 +51,11 @@ class TopNav extends Component {
                 
               </Nav>
               <Nav>
-                <Nav.Link href="#deets">HOME</Nav.Link>
-                <Nav.Link href="#deets">ABOUT</Nav.Link>
-                <Nav.Link href="#deets">SERVICES</Nav.Link>
-                <Nav.Link href="#deets">PORTFOLIO</Nav.Link>
-                <Nav.Link href="#deets">CONTACT US</Nav.Link>
+                <Nav.Link className={this.state.navBackItem} href="#deets">HOME</Nav.Link>
+                <Nav.Link className={this.state.navBackItem} href="#deets">ABOUT</Nav.Link>
+                <Nav.Link className={this.state.navBackItem} href="#deets">SERVICES</Nav.Link>
+                <Nav.Link className={this.state.navBackItem} href="#deets">PORTFOLIO</Nav.Link>
+                <Nav.Link className={this.state.navBackItem} href="#deets">CONTACT US</Nav.Link>
                 
               </Nav>
             </Navbar.Collapse>
