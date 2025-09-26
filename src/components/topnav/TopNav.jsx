@@ -10,16 +10,25 @@ class TopNav extends Component {
     constructor(){
         super();
         this.state = {
-            navBarTitle: "navTitle",
-            navBarLogo: [LogoWithIcon], // object
-        }
+          navBarTitle: "navTitle",
+          navBarLogo: [LogoWithIcon], // object
+          navBarBackColor: "navBackground",
+        };
     }
 
     onScroll = ()=> {
         if(window.scrollY > 100){
-            this.setState({navBarTitle: "navTitleScroll", navBarLogo: [LogoWithIcon]})
+            this.setState({
+              navBarTitle: "navTitleScroll",
+              navBarLogo: [LogoWithIcon],
+              navBarBackColor: "navBackground",
+            });
         }else if(window.scrollY < 100){
-            this.setState({navBarTitle: "navTitle", navBarLogo: [Logo]})
+            this.setState({
+              navBarTitle: "navTitle",
+              navBarLogo: [Logo],
+              navBarBackColor: "navBackgroundScroll",
+            });
         }
     }
 
@@ -30,7 +39,7 @@ class TopNav extends Component {
   render() {
     return (
       <Fragment>
-        <Navbar collapseOnSelect fixed="top" expand="lg" className="bg-dark navbar-dark">
+        <Navbar className={this.state.navBarBackColor} collapseOnSelect fixed="top" expand="lg" variant="dark">
           <Container>
             <Navbar.Brand className={this.state.navBarTitle} href="#home"><img src={this.state.navBarLogo} alt="Logo" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
