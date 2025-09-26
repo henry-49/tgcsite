@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import {Container,Nav, Navbar} from "react-bootstrap";
 import '../../asset/css/custom.css';
-import "../../asset/css/bootstrap.min.css";
+import '../../asset/css/bootstrap.min.css';
 import Logo from '../../asset/images/tsc_logo.png';
 import LogoWithIcon from '../../asset/images/tsc_white_logo.png';
 
