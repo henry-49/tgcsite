@@ -2,14 +2,37 @@ import React, { Component, Fragment } from 'react'
 import {Container,Nav, Navbar, NavDropdown, Row, Col, Button} from "react-bootstrap";
 import '../../asset/css/custom.css';
 import "../../asset/css/bootstrap.min.css";
+import Logo from '../../asset/images/tsc_logo.png';
+import LogoWithIcon from '../../asset/images/tsc_white_logo.png';
 
 class TopNav extends Component {
+
+    constructor(){
+        super();
+        this.state = {
+            navBarTitle: "navTitle",
+            navBarLogo: [LogoWithIcon], // object
+        }
+    }
+
+    onScroll = ()=> {
+        if(window.scrollY > 100){
+            this.setState({navBarTitle: "navTitleScroll", navBarLogo: [LogoWithIcon]})
+        }else if(window.scrollY < 100){
+            this.setState({navBarTitle: "navTitle", navBarLogo: [Logo]})
+        }
+    }
+
+    componentDidMount(){
+        window.addEventListener('scroll', this.onScroll)
+    }
+
   render() {
     return (
       <Fragment>
         <Navbar collapseOnSelect fixed="top" expand="lg" className="bg-dark navbar-dark">
           <Container>
-            <Navbar.Brand href="#home">Tech Solutions Consult</Navbar.Brand>
+            <Navbar.Brand className={this.state.navBarTitle} href="#home"><img src={this.state.navBarLogo} alt="Logo" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
