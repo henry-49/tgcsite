@@ -199,3 +199,13 @@
      padding: 10px;
      border-radius: 3px;
 }
+
+.iconBullet{
+    color: #051b35;
+    font-size: 16px;
+}
+
+.iconProject{
+    color: #ffffff;
+    font-size: 40px;
+}
