@@ -16,7 +16,7 @@ class Services extends Component {
             <Col lg={4} md={6} sm={12}>
               <div className="serviceCard text-center">
                 <img className="ecommerceIcon" src={ecommerceIcon} alt="" />
-                <h2 className="serviceTitle">E-commerce</h2>
+                <h2 className="serviceName">E-commerce</h2>
                 <p className="serviceDescription">
                   We create robust e-commerce solutions to help you sell online.
                 </p>

@@ -24,7 +24,6 @@ class Analysis extends Component {
 
   render() {
     let colorBlue = "#051b35";
-    let colorPurple = "#8884d8";
 
     return (
       <Fragment>
@@ -51,24 +50,29 @@ class Analysis extends Component {
             </Col>
             <Col lg={6} md={12} sm={12}>
               <p className="text-justify serviceDescription">
-                I am a freelance full-stack developer with over 5 years of
-                hands-on experience. Throughout my career, I have strengthened
-                and expanded my expertise across both frontend and backend
-                technologies. My core skills include PHP, Python, JavaScript,
-                Laravel, Symfony,React.js, Vue.js, Docker, MySQL, AWS, and Linux.
+                At Tech Solutions Consult, we bring over 5 years of proven
+                expertise in full-stack development. Our team has continuously
+                expanded its skills and knowledge to deliver personalized,
+                high-quality solutions across both the frontend and backend of
+                software systems.
                 <br /> <br />
-                I work with a high level of independence and organization, and I
-                am quick to adapt to new responsibilities and technologies. My
-                ability to rapidly grasp complex concepts enables me to deliver
-                efficient, reliable solutions. I am also highly motivated to
-                continuously learn and refine my skills, ensuring that I stay up
-                to date with the latest industry practices.
+                Our core competencies include PHP, Python, and JavaScript, with
+                strong proficiency in frameworks such as Laravel and Symfony, as
+                well as libraries like React.js and Vue.js. We also specialize
+                in infrastructure technologies such as Docker, relational
+                databases like MySQL, cloud platforms including AWS, and
+                operating systems such as Linux. By combining deep technical
+                insight with disciplined processes and efficient workflows, we
+                ensure the delivery of scalable, reliable, and future-ready
+                applications.
                 <br /> <br />
-                My way of working is characterised by a high degree of
-                independence and structure. I have a quick grasp of things,
-                which makes it easy for me to familiarise myself quickly with
-                new areas of responsibility. I am always keen to learn new
-                skills and develop existing ones.
+                We offer expertise in OpenCart for E-Commerce,
+                providing businesses with robust, customizable, and
+                cost-effective online store solutions. From multi-store
+                management and custom theme development to SEO optimization and
+                secure integrations, we help clients build and maintain
+                high-performing e-commerce platforms tailored to their unique
+                needs.
               </p>
             </Col>
           </Row>

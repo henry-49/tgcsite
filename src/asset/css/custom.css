@@ -1,6 +1,6 @@
 .topFixedBanner{
     background-image: url("../images/banner.jpg");
-    min-height: 550px;
+    min-height: 450px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
 
 .topBannerOverlay{
     position: absolute;
-    min-height: 550px;
+    min-height: 450px;
     width: 100%;
     background: rgb(0, 0, 0, 0.7);
 }
@@ -46,15 +46,6 @@
     width: 80px;
 }
 
-.serviceMainTitle{
-    color: #051b35;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-}
-
 .serviceCard{
     margin: 5px;
     text-align: center;
@@ -73,7 +64,7 @@
     transition: all 0.4s ease-in-out;
 }
 
-.serviceTitle{
+.serviceName{
     color: #051b35;
     margin-top: 1rem;
     font-family: 'Raleway', sans-serif;
@@ -87,6 +78,15 @@
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     font-weight: 400;
+}
+
+.serviceMainTitle{
+    color: #051b35;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .buttom{
@@ -143,4 +143,69 @@
     color: #000000 !important;
     font-size: 16px;
     font-weight: 700;
+}
+
+.summaryBanner{
+     background-image: url("../images/summary.jpg");
+     min-height: 400px;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.summaryBannerOverlay{
+     position: absolute;
+     min-height: 400px;
+     width: 100%;
+     background: rgba(27, 31, 92, 0.7);
+}
+.countNumber{
+     color: #ffffff;
+     font-family: 'Montserrat',sans-serif;
+     font-weight: 700;
+     font-size: 40px;
+}
+.countTitle{
+     color: #ffd900;
+     font-family: 'Raleway',sans-serif;
+     font-weight: 600;
+     font-size: 22px;
+}
+.countSection{
+    margin-top: 20%;
+}
+
+.hrTitle{
+    color: white;
+}
+
+.countSection{
+    margin-top: 20%;
+}
+.cardTitle{
+     color: #000000;
+     font-family: 'Montserrat',sans-serif;
+     font-weight: 700;
+     font-size: 15px;
+}
+.cardSubTitle{
+     color: #000000;
+     font-family: 'Raleway',sans-serif;
+     font-weight: 600;
+     font-size: 14px;
+}
+.workCard{
+     margin-top: 25%;
+     padding: 10px;
+     border-radius: 3px;
+}
+
+.iconBullet{
+    color: #051b35;
+    font-size: 16px;
+}
+
+.iconProject{
+    color: #ffffff;
+    font-size: 40px;
 }
