@@ -10,7 +10,7 @@ class Services extends Component {
     return (
       <Fragment>
         <Container fluid className="serviceSection text-center">
-            <h1 className="serviceMainTitle">Our Services</h1>
+            <h1 className="serviceMainTitle">OUR SERVICES</h1>
             <div className="buttom"></div>
           <Row>
             <Col lg={4} md={6} sm={12}>

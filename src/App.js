@@ -4,6 +4,7 @@ import Services from './components/services/Services';
 import TopNavigation from './components/topnavigation/TopNavigation';
 import Analysis from './components/analysis/Analysis';
 import Summary from './components/summary/Summary';
+import RecentProject from './components/recentproject/RecentProject';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <Analysis />
       <Summary />
+      <RecentProject />
     </div>
   );
 }
