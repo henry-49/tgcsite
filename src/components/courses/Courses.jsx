@@ -18,9 +18,14 @@ import { Col, Container, Row } from 'react-bootstrap'
                   />
                 </Col>
                 <Col lg={6} md={6} sm={12}>
-                  <h5 className="float-start serviceName">Laravel 10</h5>
-                  <p className="float-start serviceDescription">
-                    Laravel 10 - Build Advance Ecommerce Project A-Z Some quick
+                  <h5 className="serviceName" style={{ textAlign: "justify" }}>
+                    Laravel 10
+                  </h5>
+                  <p
+                    className="serviceDescription"
+                    style={{ textAlign: "justify" }}
+                  >
+                    Laravel10 - Build Advance Ecommerce Project A-Z Some quick
                     example text to build on the card title and make up the bulk
                     of the card's content.
                   </p>
@@ -36,9 +41,14 @@ import { Col, Container, Row } from 'react-bootstrap'
                   />
                 </Col>
                 <Col lg={6} md={6} sm={12}>
-                  <h5 className="float-start serviceName">Laravel 10</h5>
-                  <p className="float-start serviceDescription">
-                    Laravel 10 - Build Advance Ecommerce Project A-Z Some quick
+                  <h5 className="serviceName" style={{ textAlign: "justify" }}>
+                    Laravel 10
+                  </h5>
+                  <p
+                    className="serviceDescription"
+                    style={{ textAlign: "justify" }}
+                  >
+                    Laravel10 - Build Advance Ecommerce Project A-Z Some quick
                     example text to build on the card title and make up the bulk
                     of the card's content.
                   </p>
@@ -58,9 +68,14 @@ import { Col, Container, Row } from 'react-bootstrap'
                   />
                 </Col>
                 <Col lg={6} md={6} sm={12}>
-                  <h5 className="float-start serviceName">Laravel 10</h5>
-                  <p className="float-start serviceDescription">
-                    Laravel 10 - Build Advance Ecommerce Project A-Z Some quick
+                  <h5 className="serviceName" style={{ textAlign: "justify" }}>
+                    Laravel 10
+                  </h5>
+                  <p
+                    className="serviceDescription"
+                    style={{ textAlign: "justify" }}
+                  >
+                    Laravel10 - Build Advance Ecommerce Project A-Z Some quick
                     example text to build on the card title and make up the bulk
                     of the card's content.
                   </p>
@@ -76,9 +91,14 @@ import { Col, Container, Row } from 'react-bootstrap'
                   />
                 </Col>
                 <Col lg={6} md={6} sm={12}>
-                  <h5 className="float-start serviceName">Laravel 10</h5>
-                  <p className="float-start serviceDescription">
-                    Laravel 10 - Build Advance Ecommerce Project A-Z Some quick
+                  <h5 className="serviceName" style={{ textAlign: "justify" }}>
+                    Laravel 10
+                  </h5>
+                  <p
+                    className="serviceDescription"
+                    style={{ textAlign: "justify" }}
+                  >
+                    Laravel10 - Build Advance Ecommerce Project A-Z Some quick
                     example text to build on the card title and make up the bulk
                     of the card's content.
                   </p>

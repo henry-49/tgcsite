@@ -8,7 +8,7 @@ class RecentProject extends Component {
         <Container className="text-center">
           <h1 className="serviceMainTitle">RECENT PROJECT</h1>
           <div className="buttom"></div>
-          <Row>
+          <Row className="mt-4">
             <Col lg={4} md={6} sm={12}>
               <Card className="projectCard">
                 <Card.Img

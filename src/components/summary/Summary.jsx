@@ -65,33 +65,45 @@ class Summary extends Component {
                         What We Have Achieved
                       </Card.Title>
                       <Card.Text>
-                        <p className="cardSubTitle text-justify">
+                        <p
+                          className="cardSubTitle"
+                          style={{ textAlign: "justify" }}
+                        >
                           <FontAwesomeIcon
                             icon={faCheckSquare}
                             className="iconBullet"
-                          />{" "}
-                          Requirement Gathering{" "}
+                          />
+                          Requirement Gathering
                         </p>
-                        <p className="cardSubTitle text-justify">
+                        <p
+                          className="cardSubTitle"
+                          style={{ textAlign: "justify" }}
+                        >
                           <FontAwesomeIcon
                             icon={faCheckSquare}
                             className="iconBullet"
-                          />{" "}
-                          System Analysis{" "}
+                          />
+                          System Analysis
                         </p>
-                        <p className="cardSubTitle text-justify">
+                        <p
+                          className="cardSubTitle"
+                          style={{ textAlign: "justify" }}
+                        >
                           <FontAwesomeIcon
                             icon={faCheckSquare}
                             className="iconBullet"
-                          />{" "}
-                          Coding Testing{" "}
+                          />
+                          Coding Testing
                         </p>
-                        <p className="cardSubTitle text-justify">
+                        <p
+                          className="cardSubTitle"
+                          style={{ textAlign: "justify" }}
+                        >
                           <FontAwesomeIcon
                             icon={faCheckSquare}
                             className="iconBullet"
-                          />{" "}
-                          Implementation{" "}
+                          />
+                          Implementation
                         </p>
                       </Card.Text>
                     </Card.Body>
