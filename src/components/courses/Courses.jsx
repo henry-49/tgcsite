@@ -15,6 +15,7 @@ import { Col, Container, Row } from 'react-bootstrap'
                   <img
                     className="courseImg"
                     src="https://image.freepik.com/free-photo/learner-lession_1098-14155.jpg"
+                    alt="Image"
                   />
                 </Col>
                 <Col lg={6} md={6} sm={12}>
@@ -38,6 +39,7 @@ import { Col, Container, Row } from 'react-bootstrap'
                   <img
                     className="courseImg"
                     src="https://image.freepik.com/free-photo/coach-by-whiteboard_1098-12976.jpg"
+                    alt=""
                   />
                 </Col>
                 <Col lg={6} md={6} sm={12}>
@@ -65,6 +67,7 @@ import { Col, Container, Row } from 'react-bootstrap'
                   <img
                     className="courseImg"
                     src="https://image.freepik.com/free-photo/coach-by-whiteboard_1098-12970.jpg"
+                    alt="Image"
                   />
                 </Col>
                 <Col lg={6} md={6} sm={12}>
@@ -88,6 +91,7 @@ import { Col, Container, Row } from 'react-bootstrap'
                   <img
                     className="courseImg"
                     src="https://image.freepik.com/free-photo/training-managers_1098-16067.jpg"
+                    alt="Image"
                   />
                 </Col>
                 <Col lg={6} md={6} sm={12}>

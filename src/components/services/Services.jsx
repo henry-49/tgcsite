@@ -10,8 +10,8 @@ class Services extends Component {
     return (
       <Fragment>
         <Container fluid className="serviceSection text-center">
-            <h1 className="serviceMainTitle">OUR SERVICES</h1>
-            <div className="buttom"></div>
+          <h1 className="serviceMainTitle">OUR SERVICES</h1>
+          <div className="buttom"></div>
           <Row>
             <Col lg={4} md={6} sm={12}>
               <div className="serviceCard text-center">
@@ -26,7 +26,7 @@ class Services extends Component {
             <Col lg={4} md={6} sm={12}>
               <div className="serviceCard text-center">
                 <img className="designIcon" src={designIcon} alt="" />
-                <h2 className="serviceTitle">Design Services</h2>
+                <h2 className="serviceName">Design Services</h2>
                 <p className="serviceDescription">
                   We offer creative design solutions to elevate your brand.
                 </p>
@@ -36,7 +36,7 @@ class Services extends Component {
             <Col lg={4} md={6} sm={12}>
               <div className="serviceCard text-center">
                 <img className="webIcon" src={webIcon} alt="" />
-                <h2 className="serviceTitle">Web Development</h2>
+                <h2 className="serviceName">Web Development</h2>
                 <p className="serviceDescription">
                   We build responsive and high-performing websites.
                 </p>

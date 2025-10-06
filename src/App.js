@@ -7,19 +7,22 @@ import Summary from './components/summary/Summary';
 import RecentProject from './components/recentproject/RecentProject';
 import Courses from './components/courses/Courses';
 import Video from './components/video/Video';
+import ClientReview from './components/clientreview/ClientReview';
 
 
 function App() {
   return (
     <div>
       <TopNavigation />
-      <TopBanner  />
+      <TopBanner />
       <Services />
       <Analysis />
       <Summary />
       <RecentProject />
       <Courses />
       <Video />
+      <ClientReview />
+      <Services />
     </div>
   );
 }

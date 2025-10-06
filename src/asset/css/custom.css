@@ -49,10 +49,10 @@
 .serviceCard{
     margin: 5px;
     text-align: center;
-    height: 20rem;
+    height: 22rem;
     padding: 60px 30px 60px 30px;
     box-shadow: 0px 0px 10px #b3b3b3;
-    transition: all 0.4s ease-in-out;
+    /* transition: all 0.4s ease-in-out; */
 }
 
 .serviceCard:hover{
@@ -60,8 +60,8 @@
     text-align: center;
     height: 22rem;
     padding: 60px 30px 60px 30px;
-    box-shadow: 0px 0px 15px 0 rgba(4,55,105,0.2);
-    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 0px 16px 0 rgba(4,55,105,0.2);
+    /* transition: all 0.4s ease-in-out; */
 }
 
 .serviceName{
@@ -82,10 +82,10 @@
 
 .serviceMainTitle{
     color: #051b35;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 700;
 }
 
@@ -264,4 +264,65 @@
 
 .videoText{
     margin-top: 2%;
+}
+
+.siderBack{
+    background-color: #051b35;
+    min-height: 400px;
+}
+
+.reviewMainTitle{
+    color: #ffffff;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.reviewButtom{
+    background: #ffffff none repeat scroll 0 0;
+    height: 3px;
+    width: 100px;
+    margin: -1.9rem auto 0;
+    margin-bottom: 3rem;
+}
+
+.circleImg{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #051b35;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.reviewName{
+    color: #ffffff;
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.reviewDescription{
+    color: #ffffff;
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Make inactive dots white */
+.slick-dots li button:before {
+  color: white !important;
+}
+
+/* Make active dot white too */
+.slick-dots li.slick-active button:before {
+  color: white !important;
 }
