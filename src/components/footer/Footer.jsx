@@ -32,7 +32,7 @@ class Footer extends Component {
             </Col>
 
             <Col lg={3} md={6} sm={12} className="p-5 text-justify">
-              <h2 className="footerName text-center">Address</h2>
+              <h2 className="footerName">Address</h2>
               <p className="footerAddress">
                 <FontAwesomeIcon icon={faLocation} /> Engerstreet 2, 40235
                 Düsseldorf <br></br>
@@ -43,7 +43,7 @@ class Footer extends Component {
             </Col>
 
             <Col lg={3} md={6} sm={12} className="p-5 text-justify">
-              <h2 className="footerName text-center">Information</h2>
+              <h2 className="footerName">Information</h2>
               <a href="#" className="footerLink">
                 Company Profile
               </a>{" "}
@@ -55,7 +55,7 @@ class Footer extends Component {
             </Col>
 
             <Col lg={3} md={6} sm={12} className="p-5 text-justify">
-              <h2 className="footerName text-center">Policy</h2>
+              <h2 className="footerName">Policy</h2>
               <a href="#" className="footerLink">
                 Data Protection
               </a>{" "}
