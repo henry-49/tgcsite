@@ -22,14 +22,15 @@ class AboutUs extends Component {
                 <h2 className="aboutUsGreeting">Hi There, we are</h2>
                 <h2 className="aboutUsTitle">Tech Solutions Consult</h2>
                 <h3 className="aboutUsDescription">
-                  We Build responsive and high-performing <br></br>
-                  {" "}
+                  We Build responsive and high-performing <br></br>{" "}
                   <ReactTyped
                     strings={[
                       "Websites 🌐",
                       "Mobile Apps 📱",
                       "Software Solutions 💻",
-                      "Software Test Automation 🧪",
+                      "Cloud Solutions ☁️",
+                      "Software Testing 🧪 and Automation 🤖",
+                      "Quality Control ✅",
                       "Design with Animations 🎨✨",
                     ]}
                     typeSpeed={80}
