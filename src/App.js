@@ -5,12 +5,13 @@ import TopNavigation from './components/topnavigation/TopNavigation';
 import AboutDescription from './components/aboutdescription/AboutDescription';
 import AboutPage from './pages/AboutPage';
 import AllCoursePage from './pages/AllCoursePage';
+import PortfolioPage from "./pages/PortfolioPage";
 
 
 function App() {
   return (
     <div>
-      <AllCoursePage />
+      <PortfolioPage />
     </div>
   );
 }
