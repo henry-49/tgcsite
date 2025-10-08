@@ -5,7 +5,7 @@ import '../../asset/css/bootstrap.min.css';
 import Logo from '../../asset/images/tsc_logo.png';
 import LogoWithIcon from '../../asset/images/tsc_white_logo.png';
 
-class TopNav extends Component {
+class TopNavigation extends Component {
 
     constructor(){
         super();
@@ -69,4 +69,4 @@ class TopNav extends Component {
   }
 }
 
-export default TopNav
+export default TopNavigation
