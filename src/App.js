@@ -8,12 +8,13 @@ import AllCoursePage from './pages/AllCoursePage';
 import PortfolioPage from "./pages/PortfolioPage";
 import ContactUs from './components/contactus/ContactUs';
 import ContactPage from './pages/ContactPage';
+import ServicePage from './pages/ServicePage';
 
 
 function App() {
   return (
     <div>
-      <ContactPage />
+      <ServicePage />
     </div>
   );
 }
