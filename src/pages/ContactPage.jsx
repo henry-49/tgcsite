@@ -1,20 +1,20 @@
 import React, { Component, Fragment } from 'react'
 import TopNavigation from '../components/topnavigation/TopNavigation'
 import PageTop from '../components/pagetop/PageTop'
-import AllProjects from '../components/allprojects/AllProjects'
 import Footer from '../components/footer/Footer'
+import ContactUs from '../components/contactus/ContactUs'
 
-class PortfolioPage extends Component {
+class ContactPage extends Component {
   render() {
     return (
       <Fragment>
         <TopNavigation />
-        <PageTop pagetitle="Our Portfolio" />
-        <AllProjects />
+        <PageTop pagetitle="Contact Us" />
+        <ContactUs />
         <Footer />
       </Fragment>
-    )
+    );
   }
 }
 
-export default PortfolioPage;
+export default ContactPage

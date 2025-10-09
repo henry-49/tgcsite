@@ -11,6 +11,9 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 class Footer extends Component {
   render() {
+
+    const currentYear = new Date().getFullYear();
+
     return (
       <Fragment>
         <Container fluid className="footerSection">
@@ -70,7 +73,7 @@ class Footer extends Component {
 
         <Container className="text-center copyrightSection" fluid>
           <a className="copyrightLink" href="#">
-            © Copyright 2025 by Tech Solutions Consult, All Rights Reserved
+            © Copyright {currentYear} by Tech Solutions Consult, All Rights Reserved.
           </a>
         </Container>
       </Fragment>
