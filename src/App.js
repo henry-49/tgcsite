@@ -1,31 +1,20 @@
 import React from 'react';
-import TopBanner from './components/topbanner/TopBanner';
-import Services from './components/services/Services';
+import HomePage from './pages/HomePage';
+import PageTop from './components/pagetop/PageTop';
 import TopNavigation from './components/topnavigation/TopNavigation';
-import Analysis from './components/analysis/Analysis';
-import Summary from './components/summary/Summary';
-import RecentProject from './components/recentproject/RecentProject';
-import Courses from './components/courses/Courses';
-import Video from './components/video/Video';
-import ClientReview from './components/clientreview/ClientReview';
-import AboutUs from './components/about/AboutUs';
-import Footer from './components/footer/Footer';
+import AboutDescription from './components/aboutdescription/AboutDescription';
+import AboutPage from './pages/AboutPage';
+import AllCoursePage from './pages/AllCoursePage';
+import PortfolioPage from "./pages/PortfolioPage";
+import ContactUs from './components/contactus/ContactUs';
+import ContactPage from './pages/ContactPage';
+import ServicePage from './pages/ServicePage';
 
 
 function App() {
   return (
     <div>
-      <TopNavigation />
-      <TopBanner />
-      <Services />
-      <Analysis />
-      <Summary />
-      <RecentProject />
-      <Courses />
-      <Video />
-      <ClientReview />
-      <AboutUs />
-      <Footer />
+      <ServicePage />
     </div>
   );
 }

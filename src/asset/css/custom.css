@@ -1,6 +1,6 @@
 .topFixedBanner{
     background-image: url("../images/banner.jpg");
-    min-height: 450px;
+    min-height: 550px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
 
 .topBannerOverlay{
     position: absolute;
-    min-height: 450px;
+    min-height: 550px;
     width: 100%;
     background: rgb(0, 0, 0, 0.7);
 }
@@ -26,9 +26,10 @@
 }
 
 .topSubTitle{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #ffffff;
+    font-size: 48px;
 }
 
 .ecommerceIcon{
@@ -455,4 +456,34 @@ a.twitter {
 .copyrightLink:hover {
     text-decoration: none;
     color: #ffffff;
+}
+
+
+/* Custom styling for PageTop */
+
+.topFixedPage{
+    background-image: url("../images/page.png");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topPageOverlay{
+    position: absolute;
+    min-height: 250px;
+    width: 100%;
+    background: rgba(19, 1, 102, 0.7);
+}
+
+.topContentPage{
+    margin-top: 8em;
+}
+
+.topPageTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffee00;
+    font-size: 40px;
 }
