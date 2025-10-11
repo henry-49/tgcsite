@@ -1,6 +1,6 @@
 .topFixedBanner{
     background-image: url("../images/banner.jpg");
-    min-height: 550px;
+    min-height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
 
 .topBannerOverlay{
     position: absolute;
-    min-height: 550px;
+    min-height: 600px;
     width: 100%;
     background: rgb(0, 0, 0, 0.7);
 }
@@ -463,7 +463,7 @@ a.twitter {
 
 .topFixedPage{
     background-image: url("../images/page.png");
-    min-height: 250px;
+    min-height: 350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -472,7 +472,7 @@ a.twitter {
 
 .topPageOverlay{
     position: absolute;
-    min-height: 250px;
+    min-height: 350px;
     width: 100%;
     background: rgba(19, 1, 102, 0.7);
 }
