@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import {Container,Nav, Navbar} from "react-bootstrap";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import '../../asset/css/custom.css';
 import '../../asset/css/bootstrap.min.css';
 import Logo from '../../asset/images/tsc_logo.png';
@@ -8,7 +8,7 @@ import LogoWithIcon from '../../asset/images/tsc_white_logo.png';
 
 class TopNavigation extends Component {
 
-    constructor(){
+    constructor(props){
         super();
         this.state = {
           navBarTitle: "navTitle",
@@ -16,6 +16,8 @@ class TopNavigation extends Component {
           navVariant: "dark",
           navBarBackColor: "navBackground",
           navBackItem: "navItem",
+          navActiveColor: "#ffd900",
+          pageTopTitle: props.title,
         };
     }
 
@@ -46,6 +48,8 @@ class TopNavigation extends Component {
   render() {
     return (
       <Fragment>
+        <title>{this.state.pageTopTitle}</title>
+
         <Navbar
           className={this.state.navBarBackColor}
           collapseOnSelect
@@ -55,43 +59,85 @@ class TopNavigation extends Component {
         >
           <Container>
             <Navbar.Brand className={this.state.navBarTitle}>
-              <Link to="/">
+              <NavLink to="/">
                 <img src={this.state.navBarLogo} alt="Logo" />
-              </Link>
+              </NavLink>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto"></Nav>
               <Nav>
                 <Nav.Link>
-                  <Link className={this.state.navBackItem} to="/">
+                  <NavLink
+                    exact="true"
+                    style={({ isActive }) => ({
+                      color: isActive ? this.state.navActiveColor : "#ffffff",
+                    })}
+                    className={this.state.navBackItem}
+                    to="/"
+                  >
                     HOME
-                  </Link>
+                  </NavLink>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link className={this.state.navBackItem} to="/about">
+                  <NavLink
+                    exact="true"
+                    style={({ isActive }) => ({
+                      color: isActive ? this.state.navActiveColor : "#ffffff",
+                    })}
+                    className={this.state.navBackItem}
+                    to="/about"
+                  >
                     ABOUT
-                  </Link>
+                  </NavLink>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link className={this.state.navBackItem} to="/services">
+                  <NavLink
+                    exact="true"
+                    style={({ isActive }) => ({
+                      color: isActive ? this.state.navActiveColor : "#ffffff",
+                    })}
+                    className={this.state.navBackItem}
+                    to="/services"
+                  >
                     SERVICES
-                  </Link>
+                  </NavLink>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link className={this.state.navBackItem} to="/training">
+                  <NavLink
+                    exact="true"
+                    style={({ isActive }) => ({
+                      color: isActive ? this.state.navActiveColor : "#ffffff",
+                    })}
+                    className={this.state.navBackItem}
+                    to="/training"
+                  >
                     TRAINING
-                  </Link>
+                  </NavLink>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link className={this.state.navBackItem} to="/portfolio">
+                  <NavLink
+                    exact="true"
+                    style={({ isActive }) => ({
+                      color: isActive ? this.state.navActiveColor : "#ffffff",
+                    })}
+                    className={this.state.navBackItem}
+                    to="/portfolio"
+                  >
                     PORTFOLIO
-                  </Link>
+                  </NavLink>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link className={this.state.navBackItem} to="/contact">
+                  <NavLink
+                    exact="true"
+                    style={({ isActive }) => ({
+                      color: isActive ? this.state.navActiveColor : "#ffffff",
+                    })}
+                    className={this.state.navBackItem}
+                    to="/contact"
+                  >
                     CONTACT US
-                  </Link>
+                  </NavLink>
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>

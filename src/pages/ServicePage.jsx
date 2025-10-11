@@ -8,14 +8,14 @@ import ContactUs from "../components/contactus/ContactUs";
 class ServicePage extends Component {
   render() {
     return (
-        <Fragment>
-            <TopNavigation />
-            <PageTop pagetitle="Our Services" />
-            <Services />
-            <ContactUs />
-            <Footer />
-        </Fragment>
-    )
+      <Fragment>
+        <TopNavigation title="Our Services" />
+        <PageTop pagetitle="Our Services" />
+        <Services />
+        <ContactUs />
+        <Footer />
+      </Fragment>
+    );
   }
 }
 
