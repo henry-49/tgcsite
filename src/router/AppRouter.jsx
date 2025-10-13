@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { Row, Card, Col, Container, Button, Form } from "react-bootstrap";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import AboutPage from "../pages/AboutPage";
 import ServicePage from "../pages/ServicePage";
@@ -9,6 +8,7 @@ import PortfolioPage from "../pages/PortfolioPage";
 import ContactPage from "../pages/ContactPage";
 import RefundPage from "../pages/RefundPage";
 import TermsPage from "../pages/TermsPage";
+import DataProtectionPage from "../pages/DataProtectionPage";
 
 class AppRouter extends Component {
   render() {
@@ -24,6 +24,7 @@ class AppRouter extends Component {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/refund" element={<RefundPage />} />
             <Route path="/terms" element={<TermsPage />} />
+            <Route path="/data-protection" element={<DataProtectionPage />} />
           </Routes>
         </Fragment>
       </Router>

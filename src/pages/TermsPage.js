@@ -10,8 +10,8 @@ class TermsPage extends Component {
   render() {
      return (
        <Fragment>
-         <TopNavigation title="Trems And Condition " />
-         <PageTop pagetitle="Trems And Condition" />
+         <TopNavigation title="Terms And Condition " />
+         <PageTop pagetitle="Terms And Condition" />
          <TermsAndCondition />
          <Footer />
        </Fragment>
