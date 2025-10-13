@@ -10,15 +10,13 @@ class AboutPage extends Component {
   render() {
     return (
       <Fragment>
-        
-        <TopNavigation />
-        <PageTop  pagetitle="About Us" />
+        <TopNavigation title="About Us" />
+        <PageTop pagetitle="About Us" />
         <AboutUs />
         <AboutDescription />
         <Footer />
-
       </Fragment>
-    )
+    );
   }
 }
 

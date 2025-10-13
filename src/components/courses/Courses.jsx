@@ -6,7 +6,7 @@ import { Col, Container, Row } from 'react-bootstrap'
     return (
       <Fragment>
         <Container className="text-center">
-          <h1 className="serviceMainTitle">OUR COURSES</h1>
+          <h1 className="serviceMainTitle">OUR TRAINING</h1>
           <div className="buttom"></div>
           <Row>
             <Col lg={6} md={12} sm={12}>

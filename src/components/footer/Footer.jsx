@@ -7,6 +7,7 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLocation } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 
 class Footer extends Component {
@@ -47,25 +48,29 @@ class Footer extends Component {
 
             <Col lg={3} md={6} sm={12} className="p-5 text-justify">
               <h2 className="footerName">Information</h2>
-              <a href="#" className="footerLink">
+              <Link className="footerLink" to="/">
                 Company Profile
-              </a>{" "}
+              </Link>{" "}
               <br></br>
-              <a href="#" className="footerLink">
+              <Link className="footerLink" to="/about">
                 About Us
-              </a>{" "}
+              </Link>{" "}
+              <br></br>
+              <Link className="footerLink" to="/contact">
+                Contact Us
+              </Link>{" "}
               <br></br>
             </Col>
 
             <Col lg={3} md={6} sm={12} className="p-5 text-justify">
               <h2 className="footerName">Policy</h2>
-              <a href="#" className="footerLink">
+              <Link className="footerLink" to="/data-protection">
                 Data Protection
-              </a>{" "}
+              </Link>{" "}
               <br></br>
-              <a href="#" className="footerLink">
+              <Link className="footerLink" to="/impressum">
                 Impressum
-              </a>{" "}
+              </Link>{" "}
               <br></br>
             </Col>
           </Row>
@@ -73,7 +78,8 @@ class Footer extends Component {
 
         <Container className="text-center copyrightSection" fluid>
           <a className="copyrightLink" href="#">
-            © Copyright {currentYear} by Tech Solutions Consult, All Rights Reserved.
+            © Copyright {currentYear} by Tech Solutions Consult, All Rights
+            Reserved.
           </a>
         </Container>
       </Fragment>
