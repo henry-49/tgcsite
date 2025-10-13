@@ -139,6 +139,7 @@ class TopNavigation extends Component {
                     CONTACT US
                   </NavLink>
                 </Nav.Link>
+                
               </Nav>
             </Navbar.Collapse>
           </Container>

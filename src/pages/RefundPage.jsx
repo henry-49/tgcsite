@@ -1,22 +1,20 @@
 import React, { Component, Fragment } from "react";
 import TopNavigation from "../components/topnavigation/TopNavigation";
 import PageTop from "../components/pagetop/PageTop";
+import RefundDescription from "../components/refundescription/RefundDescription";
 import Footer from "../components/footer/Footer";
-import Services from "../components/services/Services";
-import Analysis from "../components/analysis/Analysis";
 
-class ServicePage extends Component {
+class RefundPage extends Component {
   render() {
     return (
       <Fragment>
-        <TopNavigation title="Our Services" />
-        <PageTop pagetitle="Our Services" />
-        <Services />
-        <Analysis />
+        <TopNavigation title="Refund Policy" />
+        <PageTop pagetitle="Refund Policy" />
+        <RefundDescription />
         <Footer />
       </Fragment>
     );
   }
 }
 
-export default ServicePage;
+export default RefundPage;
