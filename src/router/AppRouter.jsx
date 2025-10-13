@@ -6,9 +6,8 @@ import ServicePage from "../pages/ServicePage";
 import TrainingPage from "../pages/AllCoursePage";
 import PortfolioPage from "../pages/PortfolioPage";
 import ContactPage from "../pages/ContactPage";
-import RefundPage from "../pages/RefundPage";
-import TermsPage from "../pages/TermsPage";
 import DataProtectionPage from "../pages/DataProtectionPage";
+import ImpressumPage from "../pages/ImpressumPage";
 
 class AppRouter extends Component {
   render() {
@@ -22,9 +21,8 @@ class AppRouter extends Component {
             <Route path="/training" element={<TrainingPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
-            <Route path="/refund" element={<RefundPage />} />
-            <Route path="/terms" element={<TermsPage />} />
             <Route path="/data-protection" element={<DataProtectionPage />} />
+            <Route path="/impressum" element={<ImpressumPage />} />
           </Routes>
         </Fragment>
       </Router>

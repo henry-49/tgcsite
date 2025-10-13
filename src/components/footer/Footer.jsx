@@ -56,6 +56,10 @@ class Footer extends Component {
                 About Us
               </Link>{" "}
               <br></br>
+              <Link className="footerLink" to="/contact">
+                Contact Us
+              </Link>{" "}
+              <br></br>
             </Col>
 
             <Col lg={3} md={6} sm={12} className="p-5 text-justify">
@@ -64,9 +68,9 @@ class Footer extends Component {
                 Data Protection
               </Link>{" "}
               <br></br>
-              <a href="#" className="footerLink">
+              <Link className="footerLink" to="/impressum">
                 Impressum
-              </a>{" "}
+              </Link>{" "}
               <br></br>
             </Col>
           </Row>
